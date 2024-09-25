@@ -10,7 +10,7 @@ function NavTabs() {
        {/* h1 with my name */}
        <h1> Nariman Suleimenov</h1>
     <ul className="nav nav-tabs">
-      <li className="nav-item">
+      {/*<li className="nav-item">
         <Link
           to="/"
           // This is a conditional (ternary) operator that checks to see if the current page is "Home"
@@ -19,10 +19,10 @@ function NavTabs() {
         >
           Home
         </Link>
-      </li>
+      </li>*/}
       <li className="nav-item">
         <Link
-          to="/About"
+          to="/"
           // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === '/About' ? 'nav-link active' : 'nav-link'}
         >
