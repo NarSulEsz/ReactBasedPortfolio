@@ -1,4 +1,5 @@
 import {NavLink, useLocation } from 'react-router-dom';
+import Footer from 'pages/Footer'; // Importation of Footer module
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
@@ -6,6 +7,7 @@ function NavTabs() {
   const currentPage = useLocation().pathname;
 
   return (
+    <>
     <header className="header">  {/* Located all the links inside the header element*/}
        {/* h1 with my name */}
        <h1> Nariman Suleimenov</h1>
@@ -48,6 +50,8 @@ function NavTabs() {
       </li>
     </ul>
     </header>
+    <Footer /> 
+    </>
   );
 }
 
