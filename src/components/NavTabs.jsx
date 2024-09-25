@@ -6,9 +6,9 @@ function NavTabs() {
   const currentPage = useLocation().pathname;
 
   return (
-    <div>
-       {/* Header with my name */}
-       <h1 className="header">Nariman Suleimenov</h1>
+    <header className="header">  {/* Located all the links inside the header element*/}
+       {/* h1 with my name */}
+       <h1> Nariman Suleimenov</h1>
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <Link
@@ -57,7 +57,7 @@ function NavTabs() {
         </Link>
       </li>
     </ul>
-    </div>
+    </header>
   );
 }
 
