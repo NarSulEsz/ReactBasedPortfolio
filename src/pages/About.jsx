@@ -3,7 +3,7 @@ export default function About() {
     <div>
       <h1>About Me</h1>
       <img 
-        src="src/assets/PhotoForResume.jpg" 
+        src="/images/PhotoForResume.jpg" 
         alt="Photo of Nariman" 
         style={{ width: '150px', height: '150px', borderRadius: '50%' }} 
       />
