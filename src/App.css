@@ -54,3 +54,7 @@
   border-radius: 10px; /* Optional for rounded corners */
 }
 
+.footer-links a {
+  margin-right: 15px; /* Adjust the value as needed */
+}
+
