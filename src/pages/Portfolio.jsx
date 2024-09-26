@@ -8,7 +8,7 @@ export default function Portfolio() {
     },
     {
       title: "Blog Demo",
-      image: "src/assets/blog_demo.png",
+      image: "/images/blog_demo.png",
       deployedLink: "https://narsulesz.github.io/blog-demo/",
       githubLink: "https://github.com/NarSulEsz/blog-demo"
     },
