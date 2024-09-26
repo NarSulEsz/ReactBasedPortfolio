@@ -2,7 +2,7 @@ export default function Portfolio() {
   const projects = [
     {
       title: "HTML Seo Refactor",
-      image: "src/assets/HTML_seo_refactor.png",
+      image: "/images/HTML_seo_refactor.png",
       deployedLink: "https://narsulesz.github.io/html-seo-refactor/",
       githubLink: "https://github.com/NarSulEsz/html-seo-refactor"
     },
@@ -14,25 +14,25 @@ export default function Portfolio() {
     },
     {
       title: "Professional README generator",
-      image: "src/assets/readme_generator.png",
+      image: "/images/readme_generator.png",
       deployedLink: "https://drive.google.com/file/d/198U7JrrMb0TfnFfllc6n_wXzPQQLDqkb/view",
       githubLink: "https://github.com/NarSulEsz/Professional_README_Generator"
     },
     {
       title: "SQL tables",
-      image: "src/assets/SQL_tables.png",
+      image: "/images/SQL_tables.png",
       deployedLink: "https://drive.google.com/file/d/17j3CV8pZi94gJ8vbpzOedqZoqrLmXgD4/view",
       githubLink: "https://github.com/NarSulEsz/employeesRolesDepartments"
     },
     {
       title: "E-commerce-Back-End",
-      image: "src/assets/E_commece_Back_End.png",
+      image: "/images/E_commece_Back_End.png",
       deployedLink: "https://drive.google.com/file/d/1UNpsf0Hb2En3HfaCh7FzDDE0wKoXQM_L/view?usp=sharing",
       githubLink: "https://github.com/NarSulEsz/E-commerce-Back-End"
     },
     {
       title: "Employee Payroll Tracker",
-      image: "src/assets/EmployeePayrollTracker.png",
+      image: "/images/EmployeePayrollTracker.png",
       deployedLink: "https://narsulesz.github.io/Employee-Payroll-Tracker/",
       githubLink: "https://github.com/NarSulEsz/Employee-Payroll-Tracker"
     }
