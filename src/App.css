@@ -51,10 +51,10 @@
   max-width: 100%;
   height: auto;
   object-fit: cover;
-  border-radius: 10px; /* Optional for rounded corners */
+  border-radius: 10px; 
 }
 
 .footer-links a {
-  margin-right: 15px; /* Adjust the value as needed */
+  margin-right: 15px; 
 }
 
